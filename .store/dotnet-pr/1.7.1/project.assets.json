@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "dotnet-pr/1.7.1": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.2/any": {
+      "dotnet-pr/1.7.1": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/LibGit2Sharp.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Binder.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Console.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Debug.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Primitives.dll": {},
+          "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "tools/netcoreapp2.1/any/dotnet-pr.deps.json": {},
+          "tools/netcoreapp2.1/any/dotnet-pr.dll": {},
+          "tools/netcoreapp2.1/any/dotnet-pr.pdb": {},
+          "tools/netcoreapp2.1/any/dotnet-pr.runtimeconfig.json": {},
+          "tools/netcoreapp2.1/any/runtimes/alpine-x64/native/libgit2-4aecb64.so": {},
+          "tools/netcoreapp2.1/any/runtimes/debian.9-x64/native/libgit2-4aecb64.so": {},
+          "tools/netcoreapp2.1/any/runtimes/fedora-x64/native/libgit2-4aecb64.so": {},
+          "tools/netcoreapp2.1/any/runtimes/linux-x64/native/libgit2-4aecb64.so": {},
+          "tools/netcoreapp2.1/any/runtimes/osx/native/libgit2-4aecb64.dylib": {},
+          "tools/netcoreapp2.1/any/runtimes/rhel-x64/native/libgit2-4aecb64.so": {},
+          "tools/netcoreapp2.1/any/runtimes/ubuntu.18.04-x64/native/libgit2-4aecb64.so": {},
+          "tools/netcoreapp2.1/any/runtimes/win-x64/native/git2-4aecb64.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win-x64/native/git2-4aecb64.pdb": {},
+          "tools/netcoreapp2.1/any/runtimes/win-x86/native/git2-4aecb64.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win-x86/native/git2-4aecb64.pdb": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-pr/1.7.1": {
+      "sha512": "YZFcswYJbtvSuSSachbGr9BpyRmRdDZOK+KmMe9g7P4l5r+VXFlds8QYHjgTUI0lEBkq+xf+/diQgmNdD+qLPg==",
+      "type": "package",
+      "path": "dotnet-pr/1.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-pr.1.7.1.nupkg.sha512",
+        "dotnet-pr.nuspec",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/LibGit2Sharp.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Console.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Debug.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Primitives.dll",
+        "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/netcoreapp2.1/any/dotnet-pr.deps.json",
+        "tools/netcoreapp2.1/any/dotnet-pr.dll",
+        "tools/netcoreapp2.1/any/dotnet-pr.pdb",
+        "tools/netcoreapp2.1/any/dotnet-pr.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/runtimes/alpine-x64/native/libgit2-4aecb64.so",
+        "tools/netcoreapp2.1/any/runtimes/debian.9-x64/native/libgit2-4aecb64.so",
+        "tools/netcoreapp2.1/any/runtimes/fedora-x64/native/libgit2-4aecb64.so",
+        "tools/netcoreapp2.1/any/runtimes/linux-x64/native/libgit2-4aecb64.so",
+        "tools/netcoreapp2.1/any/runtimes/osx/native/libgit2-4aecb64.dylib",
+        "tools/netcoreapp2.1/any/runtimes/rhel-x64/native/libgit2-4aecb64.so",
+        "tools/netcoreapp2.1/any/runtimes/ubuntu.18.04-x64/native/libgit2-4aecb64.so",
+        "tools/netcoreapp2.1/any/runtimes/win-x64/native/git2-4aecb64.dll",
+        "tools/netcoreapp2.1/any/runtimes/win-x64/native/git2-4aecb64.pdb",
+        "tools/netcoreapp2.1/any/runtimes/win-x86/native/git2-4aecb64.dll",
+        "tools/netcoreapp2.1/any/runtimes/win-x86/native/git2-4aecb64.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "dotnet-pr"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\uu3k5j4q.5l5": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\arley\\AppData\\Local\\Temp\\ffyndwp2.r30\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\arley\\AppData\\Local\\Temp\\ffyndwp2.r30\\restore.csproj",
+      "packagesPath": "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\uu3k5j4q.5l5",
+      "outputPath": "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\uu3k5j4q.5l5\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\arley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "dependencies": {
+          "dotnet-pr": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}

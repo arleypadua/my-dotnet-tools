@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>dotnet-pr</id>
+    <version>1.7.1</version>
+    <authors>John Korsnes</authors>
+    <owners>John Korsnes</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/johnkors/dotnet-pr/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/johnkors/dotnet-pr/master/images/nuget/dotnet-pr/icon.512x512.png</iconUrl>
+    <description>A tool to launch the PR view of any VCS in a browser</description>
+    <releaseNotes>Adds PR tool</releaseNotes>
+    <copyright>John Korsnes</copyright>
+    <tags>dotnet global-tools pull-request git git-flow</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/johnkors/dotnet-pr" />
+  </metadata>
+</package>

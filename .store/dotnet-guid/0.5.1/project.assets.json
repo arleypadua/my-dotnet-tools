@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "dotnet-guid/0.5.1": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.2/any": {
+      "dotnet-guid/0.5.1": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/McMaster.Extensions.CommandLineUtils.dll": {},
+          "tools/netcoreapp2.1/any/guid.deps.json": {},
+          "tools/netcoreapp2.1/any/guid.dll": {},
+          "tools/netcoreapp2.1/any/guid.pdb": {},
+          "tools/netcoreapp2.1/any/guid.runtimeconfig.json": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-guid/0.5.1": {
+      "sha512": "iZIC2SiEWJ9pusWxdGu/wSVZFvtvoAoEMSM/KdB92cngQ51su97c4knqNcAo/QKVc7rEZ3rwvVaNCSvyimKgsA==",
+      "type": "package",
+      "path": "dotnet-guid/0.5.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-guid.0.5.1.nupkg.sha512",
+        "dotnet-guid.nuspec",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/McMaster.Extensions.CommandLineUtils.dll",
+        "tools/netcoreapp2.1/any/guid.deps.json",
+        "tools/netcoreapp2.1/any/guid.dll",
+        "tools/netcoreapp2.1/any/guid.pdb",
+        "tools/netcoreapp2.1/any/guid.runtimeconfig.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "dotnet-guid"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\uckyasvp.o5k": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\arley\\AppData\\Local\\Temp\\lu4iba0i.xfb\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\arley\\AppData\\Local\\Temp\\lu4iba0i.xfb\\restore.csproj",
+      "packagesPath": "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\uckyasvp.o5k",
+      "outputPath": "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\uckyasvp.o5k\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\arley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "dependencies": {
+          "dotnet-guid": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}

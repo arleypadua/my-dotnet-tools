@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>dotnet-depends</id>
+    <version>0.3.0</version>
+    <title>dotnet-depends</title>
+    <authors>mholo65</authors>
+    <owners>mholo65</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/mholo65/depends/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mholo65/depends</projectUrl>
+    <description>Dependency explorer for .NET</description>
+    <copyright>2018 Martin Björkström</copyright>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1" />
+    </dependencies>
+  </metadata>
+</package>

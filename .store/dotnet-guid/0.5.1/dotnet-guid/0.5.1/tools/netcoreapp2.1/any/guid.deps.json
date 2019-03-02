@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "97e4f057bd1dcd30ab4a44bd2c1e17c21f78b984"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "guid/0.5.1": {
+        "dependencies": {
+          "McMaster.Extensions.CommandLineUtils": "2.2.5"
+        },
+        "runtime": {
+          "guid.dll": {}
+        }
+      },
+      "McMaster.Extensions.CommandLineUtils/2.2.5": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/McMaster.Extensions.CommandLineUtils.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "2.2.5.317"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {}
+    }
+  },
+  "libraries": {
+    "guid/0.5.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "McMaster.Extensions.CommandLineUtils/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MsJIvdiSdeWwdOns9ckpeCpbhOMhDXxnO0VxJ6rU4ZAy7GOclwEKmyXvZmxCC/vANTBvsF072e6jTG+0TJWawg==",
+      "path": "mcmaster.extensions.commandlineutils/2.2.5",
+      "hashPath": "mcmaster.extensions.commandlineutils.2.2.5.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    }
+  }
+}

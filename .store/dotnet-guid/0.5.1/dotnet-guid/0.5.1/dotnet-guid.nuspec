@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>dotnet-guid</id>
+    <version>0.5.1</version>
+    <authors>Sebastian Nilsson</authors>
+    <owners>Sebastian Nilsson</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/sebnilsson/DotnetGuid/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/sebnilsson/DotnetGuid</projectUrl>
+    <description>.NET Core Global Tool for creating GUIDs/UUIDs</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/sebnilsson/DotnetGuid.git" />
+  </metadata>
+</package>

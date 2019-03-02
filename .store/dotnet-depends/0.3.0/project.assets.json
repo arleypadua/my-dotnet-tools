@@ -1,0 +1,202 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "dotnet-depends/0.3.0": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.2/any": {
+      "dotnet-depends/0.3.0": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/Buildalyzer.Logger.dll": {},
+          "tools/netcoreapp2.1/any/Buildalyzer.dll": {},
+          "tools/netcoreapp2.1/any/Depends.Core.dll": {},
+          "tools/netcoreapp2.1/any/Depends.Core.pdb": {},
+          "tools/netcoreapp2.1/any/Depends.deps.json": {},
+          "tools/netcoreapp2.1/any/Depends.dll": {},
+          "tools/netcoreapp2.1/any/Depends.pdb": {},
+          "tools/netcoreapp2.1/any/Depends.runtimeconfig.json": {},
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/McMaster.Extensions.CommandLineUtils.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Build.Framework.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Build.Tasks.Core.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Build.Utilities.Core.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Build.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.DotNet.PlatformAbstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Binder.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyModel.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Console.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Primitives.dll": {},
+          "tools/netcoreapp2.1/any/MsBuildPipeLogger.Logger.dll": {},
+          "tools/netcoreapp2.1/any/MsBuildPipeLogger.Server.dll": {},
+          "tools/netcoreapp2.1/any/NStack.dll": {},
+          "tools/netcoreapp2.1/any/Newtonsoft.Json.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Build.Tasks.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Commands.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Common.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Credentials.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.DependencyResolver.Core.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Frameworks.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.LibraryModel.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Packaging.Core.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Packaging.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.ProjectModel.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Protocol.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Resolver.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Versioning.dll": {},
+          "tools/netcoreapp2.1/any/StructuredLogger.dll": {},
+          "tools/netcoreapp2.1/any/System.CodeDom.dll": {},
+          "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "tools/netcoreapp2.1/any/System.Text.Encoding.CodePages.dll": {},
+          "tools/netcoreapp2.1/any/Terminal.Gui.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/any/native/NuGet.targets": {},
+          "tools/netcoreapp2.1/any/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-depends/0.3.0": {
+      "sha512": "pScZsU3e0fI4ROrVudtArNL3HqQPLP8moFV1h4yOerpBzk2WtChRyHGxEIq0mk2Sg48BfnINJtqlS+4RDprtOg==",
+      "type": "package",
+      "path": "dotnet-depends/0.3.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-depends.0.3.0.nupkg.sha512",
+        "dotnet-depends.nuspec",
+        "tools/netcoreapp2.1/any/Buildalyzer.Logger.dll",
+        "tools/netcoreapp2.1/any/Buildalyzer.dll",
+        "tools/netcoreapp2.1/any/Depends.Core.dll",
+        "tools/netcoreapp2.1/any/Depends.Core.pdb",
+        "tools/netcoreapp2.1/any/Depends.deps.json",
+        "tools/netcoreapp2.1/any/Depends.dll",
+        "tools/netcoreapp2.1/any/Depends.pdb",
+        "tools/netcoreapp2.1/any/Depends.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/McMaster.Extensions.CommandLineUtils.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Build.Framework.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Build.Tasks.Core.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Build.Utilities.Core.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Build.dll",
+        "tools/netcoreapp2.1/any/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyModel.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Console.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Primitives.dll",
+        "tools/netcoreapp2.1/any/MsBuildPipeLogger.Logger.dll",
+        "tools/netcoreapp2.1/any/MsBuildPipeLogger.Server.dll",
+        "tools/netcoreapp2.1/any/NStack.dll",
+        "tools/netcoreapp2.1/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.1/any/NuGet.Build.Tasks.dll",
+        "tools/netcoreapp2.1/any/NuGet.Commands.dll",
+        "tools/netcoreapp2.1/any/NuGet.Common.dll",
+        "tools/netcoreapp2.1/any/NuGet.Configuration.dll",
+        "tools/netcoreapp2.1/any/NuGet.Credentials.dll",
+        "tools/netcoreapp2.1/any/NuGet.DependencyResolver.Core.dll",
+        "tools/netcoreapp2.1/any/NuGet.Frameworks.dll",
+        "tools/netcoreapp2.1/any/NuGet.LibraryModel.dll",
+        "tools/netcoreapp2.1/any/NuGet.Packaging.Core.dll",
+        "tools/netcoreapp2.1/any/NuGet.Packaging.dll",
+        "tools/netcoreapp2.1/any/NuGet.ProjectModel.dll",
+        "tools/netcoreapp2.1/any/NuGet.Protocol.dll",
+        "tools/netcoreapp2.1/any/NuGet.Resolver.dll",
+        "tools/netcoreapp2.1/any/NuGet.Versioning.dll",
+        "tools/netcoreapp2.1/any/StructuredLogger.dll",
+        "tools/netcoreapp2.1/any/System.CodeDom.dll",
+        "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/netcoreapp2.1/any/System.Text.Encoding.CodePages.dll",
+        "tools/netcoreapp2.1/any/Terminal.Gui.dll",
+        "tools/netcoreapp2.1/any/runtimes/any/native/NuGet.targets",
+        "tools/netcoreapp2.1/any/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp2.1/any/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "dotnet-depends"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\mmjzwhkt.0aj": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\arley\\AppData\\Local\\Temp\\d2wppg1p.ysi\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\arley\\AppData\\Local\\Temp\\d2wppg1p.ysi\\restore.csproj",
+      "packagesPath": "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\mmjzwhkt.0aj",
+      "outputPath": "C:\\Users\\arley\\.dotnet\\tools\\.store\\.stage\\mmjzwhkt.0aj\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\arley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "dependencies": {
+          "dotnet-depends": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}
